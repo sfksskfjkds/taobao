@@ -1,0 +1,37 @@
+.footer{
+    position: relative;
+    margin: 60px auto 0;
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    font-size: 12px;
+}
+.footer_nav a{
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.footer_nav b,.footer_bottom b{
+    font-weight: 400;
+    color: #ddd;
+}
+.about{
+    border-top: 1px solid #ddd;
+    padding: 7px 0 9px;
+    margin-top: 10px;
+}
+.about a,.about em{
+    /* font-size: 12px; */
+    color: #6c6c6c;
+    margin-right: 5px;  
+}
+.footer_nav a:hover,.about a:hover,.login_find a:hover{
+    color: red;
+}
+.footer_bottom{
+    padding-bottom:8px; 
+    /* text-align: center; */
+}
+.footer_bottom span{
+    color: #9c9c9c;
+    display: inline-block;
+}
