@@ -143,3 +143,17 @@
     width: 180px;
     margin-top: 20px;
 }
+.content .msg{
+    display: none;
+}
+/* .content .msg input{
+    display: block;
+} */
+.content .msg li{
+    margin-left: -45px;
+}
+.content .msg li input{
+    border-radius: 3px;
+    width: 200px;
+    background: #999;
+}

@@ -139,10 +139,10 @@
             </div>
         </div>
         <div class="content">
-            <form action="#" class="mobile">
+            <form action="#" class="mobile" onsubmit="return false">
                 <li>
                     <span>手机号</span>
-                    <input type="text" placeholder="请输入您的手机号">
+                    <input type="text" class="mobile_inp" placeholder="请输入您的手机号">
                 </li>
                 <li>
                     <span>验证</span>
@@ -151,7 +151,18 @@
                         >>
                     </div>
                 </li>
-                <button>下一步</button>
+                <button class="next_btn">下一步</button>
+            </form>
+            <form action="" class="msg" onsubmit="return false">
+                <li>
+                    <span>用户名</span>
+                    <input type="text" class="admin" placeholder="请输入您的用户名">
+                </li>
+                <li>
+                    <span>密码</span>
+                    <input type="password" class="psd" placeholder="请输入您的密码">
+                </li>
+                <button class="registe_btn">注册</button>
             </form>
         </div>
     </div>
@@ -199,6 +210,11 @@
             <b>|</b>
         </div>
     </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/registe.js"></script>
+    <script>
+        registe.init('.msg')
+    </script>
 </body>
 
 </html>

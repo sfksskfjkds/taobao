@@ -297,7 +297,7 @@ a{
     opacity:1;
 }
 .banner_bottom{
-    width: 520px;
+    width: 540px;
     height: 230px;
     margin-top: 1px;
     overflow: hidden;
@@ -984,4 +984,23 @@ body .footer{
 .fix a:hover,.fix a:hover i{
     background: #ff971b;
     color: white;
+}
+/* swiper */
+.banner_top .swiper-button-prev,.banner_top .swiper-button-next{
+    display: none;
+    width: 27px;
+    height: 19px;
+    outline: none;
+}
+#banner_bottom .swiper-button-prev,#banner_bottom .swiper-button-next{
+    display: none;
+    width: 27px;
+    height: 19px;
+    outline: none;
+}
+.banner_top:hover .swiper-button-prev,.banner_top:hover .swiper-button-next{
+    display: block;
+}
+#banner_bottom:hover .swiper-button-prev,#banner_bottom:hover .swiper-button-next{
+    display: block;
 }

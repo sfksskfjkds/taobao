@@ -31,15 +31,15 @@
                     <div class="login_title">
                         密码登陆
                     </div>
-                    <form action="">
-                        <input class="admin" type="text" placeholder="会员名/邮箱/手机号">
-                        <input class="pwd" type="text">
-                        <button type="submit">登陆</button>
+                    <form class="login" action="" onsubmit="return false">
+                        <input name="1" class="admin" type="text" placeholder="会员名/邮箱/手机号">
+                        <input name="2" class="pwd" type="password" placeholder="请输入密码">
+                        <button name="3" type="submit">登陆</button>
                     </form>
                     <div class="login_find">
                         <a href="">忘记密码</a>
                         <a href="">忘记会员名</a>
-                        <a href="">免费注册</a>
+                        <a href="../../registe/html/registe.html">免费注册</a>
                     </div>
                 </div>
 
@@ -90,6 +90,11 @@
             <b>|</b>
         </div>
     </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login.js"></script>
+    <script>
+        login.init('.login');
+    </script>
 </body>
 
 </html>
