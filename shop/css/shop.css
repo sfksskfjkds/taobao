@@ -1,0 +1,250 @@
+em{
+    font-style: normal;
+}
+.iconfont{
+    color: red;
+}
+.main{
+    width: 1190px;
+    margin: 0 auto;
+    min-height: 1000px;
+}
+.logo{
+    height: 75px;
+    margin-bottom: 25px;
+}
+.logo h1{
+    float: left;
+    width: 181px;
+    height: 45PX;
+    text-align: center;
+    margin-top: 20px;
+}
+.logo h1 span{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.logo h1 img{
+    height: 45px;
+    vertical-align: middle;
+}
+.logo form{
+    margin-top: 20px;
+    float: right;
+    width: 515px;
+    height: 35px;
+    border: 2px solid red;
+}
+.logo form a{
+    display: block;
+    height: 35px;
+    width: 74px;
+    /* border: 1px solid red; */
+    background: #f5f5f5;
+    color: #6b6b6b;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    line-height: 35px;
+}
+.logo form input{
+    float: left;
+    width:338px;
+    height: 29px;
+    outline: 0;
+    border: none;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 3px 0 3px 5px;
+}
+.logo form button{
+    float: left;
+    height: 35px;
+    /* outline: 0; */
+    border: none;
+    width: 98px;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    cursor: pointer;
+    background: red;
+}
+.icon-jiantouarrow483{
+    font-size: 10px;
+    color: #666;
+    text-align: right;
+}
+.shop .title{
+    height: 33px;
+    float: left;
+}
+.shop .title li{
+    padding-bottom: 15px;
+    font-size: 16px;
+    float: left;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    width: 124px;
+}
+.shop .line{
+    border-bottom: 2px solid gray;
+    height: 33px;
+}
+.shop .title .red{
+    border-bottom: 2px solid red;
+    color: red;
+}
+.shop .title b{
+    display: block;
+    float: left;
+    color: #6b6b6b;
+    font-size: 10px;
+    height: 18px;
+    line-height: 18px;
+    opacity: 0.3;
+}
+.shop .pay{
+    float: right;
+}
+.shop .pay span,.shop .pay em,.shop .pay a{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+.shop .pay em{
+    font-weight: 700;
+    padding-left: 2px;
+    color: #f40;
+}
+.shop .pay a{
+    width: 55px;
+    background: #aaa;
+    color: #fff;
+    cursor: not-allowed;
+    border-radius: 2px;
+}
+.shop .shop_th{
+    clear: both;
+    padding: 0 0 15px 20px;
+}
+.shop .shop_th input{
+    width: 15px;
+    height: 15px;
+}
+.shop .shop_th .msg{
+    width: 252px;
+    padding-left: 90px;
+}
+.shop .shop_th li{
+    float: left;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+}
+.empty{
+    width: 212px;
+}
+.price{
+    width: 130px;
+}
+.count{
+    width: 120px;
+}
+.total{
+    width: 140px;
+}
+.operate{
+    width: 120px;
+    padding-left: 30px;
+}
+.shop_list{
+    border: 1px solid #ccc;
+    clear: both;
+}
+.shop_list .item{
+    height: 90px;
+    padding: 20px 0 20px 0;
+}
+.shop_list .item li{
+    float: left;
+    height: 88px;
+    font-size: 12px;
+}
+.ckx_inp{
+    width: 15px;
+    height: 15px;
+}
+.item .td_chk{
+    width: 20px;
+    padding-right: 6px;
+    padding-left: 20px;
+}
+.item .td_inner{
+    width: 342px;
+}
+.item .td_inner .td_img{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    margin-right: 8px;
+}
+.item .td_inner .td_img img{
+    width: 80px;
+}
+.item .td_inner .dpn{
+    display: block;
+    float: left;
+    width: 226px;
+}
+.item .td_inner .dpn a{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    color: #3c3c3c;
+    cursor: pointer;
+    display: block;
+    width: 226px;
+}
+.item .td_inner .dpn .icons{
+    height: 24px;
+}
+.td_ety{
+    height: 32px;
+}
+.item .price{
+    color: #3c3c3c;
+    font-weight: 700;
+}
+.item .count a{
+    display: block;
+    width: 19px;
+    height: 25px;
+    background: #fff0e7;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    line-height: 23px;
+    float: left;
+}
+.item .count input{
+    width: 41px;
+    height: 23px;
+    text-align: center;
+    float: left;
+}
+.item .total{
+    color: red;
+    font-weight: 700;
+}
+.item .operate a{
+    display: block;
+}
+.item .operate a:hover{
+    color: red;
+    text-decoration: underline;
+}

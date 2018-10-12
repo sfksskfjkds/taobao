@@ -162,6 +162,12 @@ a{
     outline: none;
     padding-left: 12px;
 }
+#searchInpScroll{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 .searchInp button{
     width: 74px;
     height: 40px;
@@ -342,6 +348,8 @@ a{
 .subnav_bottom_right img{
     display: block;
     float: left;
+    height: 68px;
+    width: 120px;
 }
 .subnav_bottom_right .text{
     float: right;
@@ -1002,5 +1010,9 @@ body .footer{
     display: block;
 }
 #banner_bottom:hover .swiper-button-prev,#banner_bottom:hover .swiper-button-next{
+    display: block;
+}
+.swiper-container-horizontal > .swiper-scrollbar{
+    top: -1px;
     display: block;
 }

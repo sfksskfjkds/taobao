@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 html,body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 #header,#main,#footer{
     width: 100%;

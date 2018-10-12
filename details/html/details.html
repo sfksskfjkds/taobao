@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common/css/header.css">
+    <link rel="stylesheet" href="../../common/css/footer.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <div class="main">
+        <div class="logo">
+            <h1>
+                <img src="../../homepage/images/logo.png" alt="">
+                <!-- <span>购物车</span> -->
+            </h1>
+            <form action="" onsubmit="return false">
+                <a href="javascript:;">宝贝 &nbsp;&nbsp;&nbsp;<i class="iconfont icon-jiantouarrow483"></i></a>
+                <input type="text">
+                <button>搜索</button>
+            </form>
+        </div>
+        <!-- <div class="details">
+            <div class="show_img">
+                <img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg_400x400.jpg_.webp" alt="">
+            </div>
+            
+                <div class="shop_large">
+                    <img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg" alt="">
+                </div> -->
+        <div class="box">
+            <div class="show-image">
+                <img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg_400x400.jpg_.webp" alt="">
+                <span class="filter"></span>
+            </div>
+            <div class="show-big-image">
+                <img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg" alt="" id="big-image">
+            </div>
+            <ul class="img-box">
+                <li class="active"><img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg_50x50.jpg_.webp" alt=""></li>
+                <!-- <li><img src="images/02_small.jpg" alt=""></li> -->
+            </ul>
+            <div class="main_title">
+                <h3>Disney/迪士尼代购iPhonex/xs/max手机壳XR米奇苹果7/8Plus全包软</h3>
+                <ul class="price">
+                    <li>
+                        <span>价格</span>
+                        <em>￥108.00</em>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="tb_amount">
+                    <p>数量</p>
+                    <a href="">-</a>
+                    <input type="text" value="1">
+                    <a href="">+</a>
+                    <span>件(库存305件)</span>
+                </div>
+                <div class="buy">
+                    <a href="" class="lkBuy">立即购买</a>
+                    <a href="" class="addBuy">加入购物车</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script>
+        $('.header').load('../../common/html/header.html');
+        $('.footer').load('../../common/html/footer.html');
+    </script>
+    <script src="../js/details.js"></script>
+    <script>
+        var $a = document.getElementsByTagName('a');
+        for(var i = 0;i < $a.length;i++){
+            if($a[i].href == 'http://localhost:8088/taobao/details/html/details.html'){
+                $a[i].href = 'javascript:;'
+            }
+        } 
+    </script>
+    <script>
+    //    var $show_image = document.querySelector('.show-image');
+    //    var $filter = document.querySelector('.filter');
+    //    $show_image.onmouseover = function(){
+    //     $filter.style.display = 'block';
+    //    }
+    //    $show_image.onmouseleave = function(){
+    //     $filter.style.display = 'none';
+    //    }
+        
+    </script>
+</body>
+
+</html>
