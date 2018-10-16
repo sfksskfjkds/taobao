@@ -37,7 +37,7 @@
                 </div> -->
         <div class="box">
             <div class="show-image">
-                <img src="../images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg_400x400.jpg_.webp" alt="">
+                <img src="http://localhost:8088/taobao/details/images/O1CN011IJsEAV7wdIN7xu_!!2911010873.jpg_400x400.jpg_.webp" alt="">
                 <span class="filter"></span>
             </div>
             <div class="show-big-image">
@@ -59,14 +59,14 @@
                 </ul>
                 <div class="tb_amount">
                     <p>数量</p>
-                    <a href="">-</a>
+                    <a href="" class="minus">-</a>
                     <input type="text" value="1">
-                    <a href="">+</a>
+                    <a href="" class="add">+</a>
                     <span>件(库存305件)</span>
                 </div>
                 <div class="buy">
                     <a href="" class="lkBuy">立即购买</a>
-                    <a href="" class="addBuy">加入购物车</a>
+                    <a href="" class="addBuy" onclick="MoveBox($('.active'))">加入购物车</a>
                 </div>
             </div>
         </div>
@@ -81,6 +81,7 @@
         $('.footer').load('../../common/html/footer.html');
     </script>
     <script src="../js/details.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.fly.min.js"></script> -->
     <script>
         var $a = document.getElementsByTagName('a');
         for(var i = 0;i < $a.length;i++){

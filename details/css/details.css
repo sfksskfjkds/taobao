@@ -111,6 +111,7 @@
   }
   .img-box {
     padding: 10px;
+    position: relative;
   }
   .img-box>li {
     display: inline-block;

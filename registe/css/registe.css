@@ -99,6 +99,14 @@
 .content form li{
     margin-top: 20px;
 }
+.mobileMsg{
+    background: #737383;
+    position: absolute;
+    top: -20px;
+    left: 320px;
+    display: none;
+    color: white;
+}
 .content form span{
     font-size: 14px;
     margin-right: 10px;
