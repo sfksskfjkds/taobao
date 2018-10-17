@@ -260,6 +260,76 @@ a,u{
     line-height: 28px;
     margin-left: 6px;
 }
+.shop_details{
+    position: relative;
+}
+.shop_details ul{
+    float: left;
+    width: 750px;
+    background: #f6f6f6;
+    margin-top: 30px;
+}
+.shop_details .shop_title li{
+    float: left;
+    width: 131px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-right: 1px solid #E5E5E5;
+}
+.shop_details .shop_title li a{
+    color: #3C3C3C;
+}
+.shop_details .shop_title li a span{
+    color: red;
+}
+.shop_details .shop_title .active{
+    border-top: 2px solid red;
+    color: red;
+    background: #FFF;
+    text-align: center;
+    line-height: 45px;
+}
+.shop_details .shop_title p{
+    float: right;
+    text-align: center;
+    line-height: 45px;
+    color: #3C3C3C;
+    margin-right: 15px;
+}
+.shop_details ._empty{
+    background: #FAFAFA;
+    width: 187px;
+    height: 400px;
+    position: absolute;
+    left: 750px;
+    top: 30px;
+}
+.shop_details .shop_de{
+    background: white;
+    padding-left: 70px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.shop_details .shop_de li{
+    float: left;
+    width: 206px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.shop_details #_p img{
+    display: block;
+}
+.shop_details #_p .shop_img{
+    width: 750px;
+    height: 750px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.shop_details #_p .shop_img img{
+    width: 750px;
+}
 .main_title .buy{
     margin-left: 15px;
     margin-top: 20px;
@@ -285,4 +355,10 @@ a,u{
     color: #FFF;
     background: #F40;
     border: 1px solid #F40;
+}
+.footer{
+    clear: both;
+}
+#_p{
+    margin-left: 50px;
 }
